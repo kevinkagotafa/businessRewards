@@ -1,0 +1,7 @@
+{
+  "name": "BusinessRewards",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
