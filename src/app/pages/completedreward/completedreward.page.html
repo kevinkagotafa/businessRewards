@@ -1,0 +1,83 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="black" defaultHref="search-chef"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Biz Rewards</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <p>Congratulations!</p>
+    <h3>You banked for free this month and earned extra cash</h3>
+    
+    <p>Completed Tasks</p>
+ 
+    <diV style="padding-right: 20x;  border-radius: 10px; margin-top: 20px;">
+   
+      <ion-item [routerLink]="['/kyc-compliant']" id="kyc-alert" style="border-radius: 10px; padding-top: 10px; padding-bottom: 10px; box-shadow: 1px 1px 1px 1px;">
+        <ion-avatar aria-hidden="true" slot="start">
+            <img  alt="" src="assets/icon/kyc_on.png"/>
+        </ion-avatar>
+        <ion-label>
+          <p style="font-size: 12pt; padding: 5px;">KYC Compliant</p>
+        </ion-label>
+      </ion-item>
+
+    </diV>
+    <div style="padding-right: 20x; border-radius: 10px; margin-top: 20px;">
+ 
+        <ion-item [routerLink]="['/deposit']" style="border-radius: 10px; padding-top: 10px; padding-bottom: 10px; box-shadow: 1px 1px 1px 1px;">
+          <ion-avatar aria-hidden="true" slot="start">
+            <img  alt="" src="assets/icon/icons/ActiveMakeadeposit.png"/>
+          </ion-avatar>
+          <ion-label>
+            <p style="font-size: 12pt; padding: 5px;">Make a Deposit</p>
+          </ion-label>
+        </ion-item>
+
+      
+    </div>
+ 
+    <div style="padding-right: 20x; border-radius: 10px; margin-top: 20px;">
+      
+        <ion-item [routerLink]="['/incomplete-digital']" style="border-radius: 10px; padding-top: 10px; padding-bottom: 10px; box-shadow: 1px 1px 1px 1px;">
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/icons/ActiveMakeadigitaltransaction.png" />
+          </ion-avatar>
+          <ion-label>
+            <p style="font-size: 12pt; padding: 5px;">Make a digital transaction</p>
+          </ion-label>
+        </ion-item>
+      
+     
+   
+    </div>
+    <div style="padding-right: 20x; border-radius: 10px; margin-top: 20px;">
+      
+        <ion-item [routerLink]="['/incomplete-savings']" style="border-radius: 10px; padding-top: 10px; padding-bottom: 10px; box-shadow: 1px 1px 1px 1px;">
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/active savings.png" />
+          </ion-avatar>
+          <ion-label>
+            <p style="font-size: 12pt; padding: 5px;">Have an active savings pocket account</p>
+          </ion-label>
+        </ion-item>
+   
+    </div>
+    <div style="padding-right: 20x; border-radius: 10px; margin-top: 20px;">
+        <ion-item [routerLink]="['/incomplete-balance']" style="border-radius: 10px; padding-top: 10px; padding-bottom: 10px; box-shadow: 1px 1px 1px 1px;">
+          <ion-avatar aria-hidden="true" slot="start">
+            <img alt="" src="assets/icon/icons/ActiveHaveapositivebalance.png" />
+          </ion-avatar>
+          <ion-label>
+            <p style="font-size: 12pt; padding: 5px;">Have a positive balance</p>
+          </ion-label>
+        </ion-item>
+
+    
+     
+    </div>
+   </div>
+</ion-content>
